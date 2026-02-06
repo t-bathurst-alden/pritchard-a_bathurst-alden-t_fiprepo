@@ -1,0 +1,90 @@
+@media screen and (min-width:1200px) {
+   .infobox {
+      display: block;
+   }
+   
+}
+
+
+
+
+
+
+#heroimgmain {
+    height: 400px;
+}
+
+.main-header {
+    background-color: rgb(67, 193, 67);
+    height: 100px;
+}
+
+#secondlogo {
+    height: 150px;
+}
+
+.infobox {
+    position: relative;
+}
+
+.maininfoh2left {
+    position: absolute;
+    margin-bottom: 50px;
+    left: 100px;
+}
+
+.maininfopleft {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+}
+
+.standinimageleft {
+    outline: 1px black;
+}
+.infobuttonleft {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 193, 67);
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    position: absolute;
+    right: 100px;
+}
+
+
+
+
+.maininfoh2right {
+    position: absolute;
+    margin-bottom: 50px;
+    right: 100px;
+}
+
+.maininfopright {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 500px;
+}
+
+.standinimageright {
+    outline: 1px black;
+}
+
+.infobuttonright {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 193, 67);
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    position: absolute;
+    right: 100px;
+}
