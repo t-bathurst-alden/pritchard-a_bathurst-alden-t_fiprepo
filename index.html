@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Welcome to Zima!</title>
 </head>
 <body>
-    
+    <h1 class="hidden">Welcome to the Zima brand page</h1>
+    <header class="grid-con center-grid-con main-header">
+        <div class="box col-start-1 col-end-2 m-col-start-1 m-col-end-3">Logo</div>
+        <nav class="box col-start-2 col-end-5 m-col-start-3 m-col-end-13">Navigation</nav>
+    </header>
+    <main>
+        <section class="grid-con center-grid-con" id="heroimgmain">
+            <h2 class="hidden">Hero Image</h2>
+            <div class="box col-span-full m-col-span-full">Hero Image</div>
+        </section>
+        <section id="secondlogo" class="grid-con center-grid-con">
+            <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9">Logo Again</div>
+        </section>
+        <div id="welcometext" class="grid-con center-grid-con">
+            <p class="box col-span-full m-col-start-2 m-col-end-12">Welcome to the official page for Zima, the freshest summer drink hitting the store shelves this year! On this website, you can learn more about our product, and even purchase some for yourself!</p>
+        </div>
+        <section class="grid-con center-grid-con infobox">
+            <div class="box col-span-full m-col-span-full">
+                <h2 class="maininfoh2left">Shop Zima Products</h2>
+                <p class="maininfopleft">Find our drinks and other merch on sale here! Buying Zima from here instead of a third party will grant you access to deals, coupons, and rewards...</p>
+                <div class="box standinimage">Image Placeholder</div>
+                <div class="infobuttonleft">
+                    <a href="buynow.html">See More</a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
