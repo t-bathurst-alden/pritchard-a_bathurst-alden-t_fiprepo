@@ -12,17 +12,32 @@
 </head>
 <body>
     <h1 class="hidden">Welcome to the Zima brand page</h1>
-    <header class="grid-con center-grid-con main-header">
-        <div class="box col-start-1 col-end-2 m-col-start-1 m-col-end-3">Logo</div>
-        <nav class="box col-start-2 col-end-5 m-col-start-3 m-col-end-13">Navigation</nav>
+    <header class="grid-con center-grid-con main-header main-nav">
+        <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 logoimg">
+            <img src="images/mainlogo.svg" alt="Zima Logo">
+        </div>
+        <span class="hidden main-nav-desk">
+        <nav class="col-start-2 col-end-5 m-col-start-3 m-col-end-13">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="buynow.html">Buy Now</a></li>
+            </ul>
+        </nav>
+        </span>
     </header>
     <main>
         <section class="grid-con center-grid-con" id="heroimgmain">
             <h2 class="hidden">Hero Image</h2>
             <div class="box col-span-full m-col-span-full">Hero Image</div>
         </section>
-        <section id="secondlogo" class="grid-con center-grid-con">
-            <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9">Logo Again</div>
+        <section class="grid-con center-grid-con">
+            <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9" id="secondlogo">
+                <img src="images/mainlogo.svg" alt="Zima Logo again" id="logo2">
+            </div>
         </section>
         <div id="welcometext" class="grid-con center-grid-con">
             <p class="box col-span-full m-col-start-2 m-col-end-12">Welcome to the official page for Zima, the freshest summer drink hitting the store shelves this year! On this website, you can learn more about our product, and even purchase some for yourself!</p>

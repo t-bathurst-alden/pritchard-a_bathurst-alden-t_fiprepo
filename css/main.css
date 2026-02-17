@@ -6,21 +6,56 @@
 }
 
 
+@media screen and (min-width:1200px) {
+   .main-nav-desk {
+      display: block;
+   }
+   
+}
 
-
+.main-nav-desk ul li {
+    background-color: rgb(171, 233, 190);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
 
 
 #heroimgmain {
     height: 400px;
 }
 
+.logoimg {
+    background-color: white;
+    border-radius: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .main-header {
     background-color: rgb(67, 193, 67);
-    height: 100px;
+}
+
+.main-nav ul {
+    display: flex;
+   list-style-type: none;
+   margin-bottom: 0px;
+   margin-top: 0px;
+ }
+
+.main-nav ul li {
+   padding-left: 47px;
+   padding-right: 47px;
+   text-decoration: none;
+
 }
 
 #secondlogo {
-    height: 150px;
+    background-color: white;
+}
+
+#logo2 {
+    height: 200px;
 }
 
 .infobox {
