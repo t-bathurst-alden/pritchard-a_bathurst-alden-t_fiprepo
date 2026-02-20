@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <title>Welcome to Zima!</title>
 </head>
+<!--FOR ALEX: The names of our fonts are Contrail One for the headers, and TikTok Sans for the paragraphs. I did automatically define them, but they're here if you need to add them manually.-->
 <body>
     <h1 class="hidden">Welcome to the Zima brand page</h1>
     <header class="grid-con center-grid-con main-header main-nav">
         <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 logoimg">
             <img src="images/mainlogo.svg" alt="Zima Logo">
         </div>
-        <span class="hidden main-nav-desk">
-        <nav class="col-start-2 col-end-5 m-col-start-3 m-col-end-13">
+        <span class="hidden main-nav-desk col-start-2 col-end-5 m-col-start-5 m-col-end-13">
+        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -42,18 +43,87 @@
         <div id="welcometext" class="grid-con center-grid-con">
             <p class="box col-span-full m-col-start-2 m-col-end-12">Welcome to the official page for Zima, the freshest summer drink hitting the store shelves this year! On this website, you can learn more about our product, and even purchase some for yourself!</p>
         </div>
-        <section class="grid-con center-grid-con infobox">
-            <div class="box col-span-full m-col-span-full">
-                <h2 class="maininfoh2left">Shop Zima Products</h2>
-                <p class="maininfopleft">Find our drinks and other merch on sale here! Buying Zima from here instead of a third party will grant you access to deals, coupons, and rewards...</p>
-                <div class="box standinimage">Image Placeholder</div>
-                <div class="infobuttonleft">
-                    <a href="buynow.html">See More</a>
+        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox1-con">
+            <div class="grid-con col-span-full">
+                <h2 class="col-span-full m-col-span-4">Shop Zima Products</h2>
+                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="buynow.html">See More</a>
+                <p class="col-span-full m-col-span-6">Find our drinks and other merch on sale here! Buying Zima from here instead of a third party will grant you access to deals, coupons, and rewards...</p>
+                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox1img">
+                    Product example
                 </div>
             </div>
         </section>
-        
+        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox2-con">
+            <div class="grid-con col-span-full">
+                <h2 class="col-span-full m-col-span-4">Check Out Zima News</h2>
+                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="news.html">See More</a>
+                <p class="col-span-full m-col-span-6">Here, you&apos;ll find the latest news in all things Zima! Our sponsorships, our new ideas, and holiday deals, all in one place...</p>
+                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox2img">
+                    Page example
+                </div>
+            </div>
+        </section>
+        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox3-con">
+            <div class="grid-con col-span-full">
+                <h2 class="col-span-full m-col-span-4">A Little About Zima</h2>
+                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="about.html">See More</a>
+                <p class="col-span-full m-col-span-6">Learn about our wonderful product and its origins by clicking here! Here, you&apos;ll learn about the history and process of creating Zima...</p>
+                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox3img">
+                    Picture of founders
+                </div>
+            </div>
+        </section>
+        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox4-con">
+            <div class="grid-con col-span-full">
+                <h2 class="col-span-full m-col-span-5">Frequently Asked Questions</h2>
+                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="faq.html">See More</a>
+                <p class="col-span-full m-col-span-6">If you have any questions or inquiries for the Zima team, please read through our list of FAQs. Don&apos;t see your question? Contact us!</p>
+                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox4img">
+                    Image of someone thinking
+                </div>
+            </div>
+        </section>
+        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox5-con">
+            <div class="grid-con col-span-full">
+                <h2 class="col-span-full m-col-span-4">Contact Us!</h2>
+                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="contact.html">See More</a>
+                <p class="col-span-full m-col-span-6">Our team of experts at the Zima brand would love to hear from you! Reviews, complaints, and inquiries should be left here...</p>
+                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox5img">
+                    Image of someone talking over the phone
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+            <section class="box grid-con center-grid-con footer-con">
+                <h2 class="hidden">Main Footer</h2>
+                <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-6">
+                    <img src="images/mainlogo.svg" alt="Zima Logo once more" class="footerlogo">
+                </div>
+                <span class="col-span-full m-col-start-7 m-col-end-9">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+                </span>
+                <span class="col-span-full m-col-start-9 m-col-end-13">
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="buynow.html">Buy Now</a></li>
+                </ul>
+                </span>
+                <div class="col-span-full m-col-start-7 m-col-end-13 footer-contact">
+                    <ul>
+                        <li>Email: zimadrink@drink.com</li>
+                        <li>Phone: +1 200 200 2000</li>
+                        <li>Fax: 1 300 300 3000</li>
+                    </ul>
+                </div>
+                <p class="col-span-full m-col-span-full footerp">&copy; Zima drink, all content owned by Zima LTD, do not use this content or you will be sued.</p>
+            </section>
+        </footer>
 
     <script src="js/main.js"></script>
 </body>
