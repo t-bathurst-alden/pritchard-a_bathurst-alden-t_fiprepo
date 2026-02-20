@@ -25,6 +25,25 @@ body, p, h1, h2, h3, h4, h5 {
    display: none;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+   position: absolute !important; 
+   width: 1px !important; 
+   height: 1px !important; 
+   padding: 0 !important; 
+   margin: -1px !important; 
+   overflow: hidden !important; 
+   clip-path: inset(50%); 
+   white-space: nowrap !important; 
+   border: 0 !important; 
+}
+
+.image-placeholder {
+  width: 100%;
+  background-color: #ffffff;
+  border: 2px solid grey;
+  aspect-ratio: 16/9;
+}
+
 .box {
    background-color: rgb(171, 233, 190);
    color: rgb(27, 27, 27);
@@ -38,6 +57,12 @@ body, p, h1, h2, h3, h4, h5 {
 
 .center-grid-con {
    margin: 0 auto;
+}
+
+.hero-grid-con {
+   display: grid;
+   max-width: 1200px;
+   grid-template-columns: 1fr;
 }
 
 /* ---Mobile Library Grid Styles--- */
@@ -177,3 +202,4 @@ body, p, h1, h2, h3, h4, h5 {
    .l-col-end-12	{grid-column-end: 12;}
    .l-col-end-13	{grid-column-end: 13;}
 }
+

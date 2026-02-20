@@ -1,33 +1,15 @@
-@media screen and (min-width:1200px) {
-   .infobox {
-      display: block;
-   }
-   
-}
-
-
-@media screen and (min-width:1200px) {
-   .main-nav-desk {
-      display: block;
-   }
-   
-}
-
 .main-nav-desk ul li {
-    background-color: rgb(171, 233, 190);
     margin-top: 50px;
     margin-bottom: 50px;
-    
 }
-
 
 #heroimgmain {
     height: 400px;
 }
 
 .logoimg {
-    background-color: white;
-    border-radius: 15%;
+    background-color: rgb(231, 255, 229);
+    border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -37,16 +19,20 @@
 }
 
 .main-nav ul {
-    display: flex;
+   display: flex;
    list-style-type: none;
    margin-bottom: 0px;
    margin-top: 0px;
+   justify-content: space-evenly;
  }
 
-.main-nav ul li {
-   padding-left: 47px;
-   padding-right: 47px;
-   text-decoration: none;
+
+.main-nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    
 
 }
 
@@ -58,68 +44,232 @@
     height: 200px;
 }
 
-.infobox {
-    position: relative;
-}
 
-.maininfoh2left {
-    position: absolute;
-    margin-bottom: 50px;
-    left: 100px;
-}
-
-.maininfopleft {
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    width: 500px;
-}
-
-.standinimageleft {
-    outline: 1px black;
-}
-.infobuttonleft {
+.infobutton {
     display: flex;
     justify-content: center;
     text-decoration: none;
     color: white;
     background-color: rgb(67, 193, 67);
-    width: 100px;
+    border-radius: 5%;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
     height: 50px;
-    border-radius: 10%;
-    position: absolute;
-    right: 100px;
+    width: 100px;
+    padding-top: 13px;
 }
 
 
-
-
-.maininfoh2right {
-    position: absolute;
-    margin-bottom: 50px;
-    right: 100px;
+p {
+    font-family: "TikTok Sans", Arial, Helvetica, sans-serif;
 }
 
-.maininfopright {
-    position: absolute;
-    top: 100px;
-    right: 100px;
-    width: 500px;
+h2 {
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
 }
 
-.standinimageright {
-    outline: 1px black;
+/*Infobox 1 with nested properties*/
+
+.infobox-hero {
+    grid-row: 1/2;
+    height: 200px;
+    border: grey solid 2px;
 }
 
-.infobuttonright {
+#infobox1-con {
+    grid-row: 1/2;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#infobox1-con h2 {
+    color: #142916;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#infobox1-con p {
+    padding-left: 20px;
+}
+
+
+#infobox1img {
+    height: 100px;
+}
+
+/*Infobox 2 with nested properties*/
+
+#infobox2-con {
+    grid-row: 1/2;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#infobox2-con h2 {
+    color: #142916;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#infobox2-con p {
+    padding-left: 20px;
+}
+
+
+#infobox2img {
+    height: 100px;
+}
+
+/*Infobox 3 with nested properties*/
+
+#infobox3-con {
+    grid-row: 1/2;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#infobox3-con h2 {
+    color: #142916;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#infobox3-con p {
+    padding-left: 20px;
+}
+
+
+#infobox3img {
+    height: 100px;
+}
+
+/*Infobox 4 with nested properties*/
+
+
+#infobox4-con {
+    grid-row: 1/2;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#infobox4-con h2 {
+    color: #142916;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#infobox4-con p {
+    padding-left: 20px;
+}
+
+
+#infobox4img {
+    height: 100px;
+}
+
+/*Infobox 5 with nested properties*/
+
+#infobox5-con {
+    grid-row: 1/2;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#infobox5-con h2 {
+    color: #142916;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#infobox5-con p {
+    padding-left: 20px;
+}
+
+
+#infobox5img {
+    height: 100px;
+}
+
+.footer-con ul {
+    padding-top: 50px;
+   list-style-type: none;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   justify-content: space-evenly;
+}
+
+.footer-con ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+}
+
+.footer-contact ul li {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footerp {
+    color: white;
+    font-size: 15px;
+}
+
+/*About Page*/
+
+.paragraph-headers {
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
+}
+
+.about-sections {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-sections p {
+    margin-bottom: 30px;
+}
+
+.middle-paragraph {
+    margin-top: 30px;
+}
+
+
+/* Media Queries*/
+
+@media screen and (min-width:1200px) {
+    .main-nav-desk {
+      display: block;
+   }
+   
+}
+
+@media screen and (max-width: 412px) {
+    #infobox1-con h2 {
+    color: #142916;
+    font-size: 18px;
+    padding: 10px;
+}
+.footer-con ul li a {
     text-decoration: none;
+    font-size: 20px;
     color: white;
-    background-color: rgb(67, 193, 67);
-    width: 100px;
-    height: 50px;
-    border-radius: 10%;
-    position: absolute;
-    right: 100px;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+}
+.footer-contact ul li {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+}
+.footerp {
+    color: white;
+    font-size: 10px;
+}
 }
