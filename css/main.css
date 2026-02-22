@@ -1,4 +1,15 @@
-.main-nav-desk ul li {
+
+#burger {
+    margin-top: 20px;
+    width: 50px;
+    justify-self: end;
+}
+
+#burger-menu {
+    display: none;
+}
+
+#main-nav ul li {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -18,8 +29,7 @@
     background-color: rgb(67, 193, 67);
 }
 
-.main-nav ul {
-   display: flex;
+#burger-menu {
    list-style-type: none;
    margin-bottom: 0px;
    margin-top: 0px;
@@ -27,9 +37,10 @@
  }
 
 
-.main-nav ul li a {
+#burger-menu li a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 30px;
     color: white;
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
     
@@ -242,19 +253,47 @@ h2 {
 
 /* Media Queries*/
 
-@media screen and (min-width:1200px) {
-    .main-nav-desk {
-      display: block;
-   }
-   
+/*Mobile Rules*/
+
+@media screen and (min-width: 768px) {
+
+
 }
 
-@media screen and (max-width: 412px) {
+
+
+@media screen and (max-width: 768px) {
     #infobox1-con h2 {
     color: #142916;
     font-size: 18px;
     padding: 10px;
 }
+
+#infobox2-con h2 {
+    color: #142916;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#infobox3-con h2 {
+    color: #142916;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#infobox4-con h2 {
+    color: #142916;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#infobox5-con h2 {
+    color: #142916;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
 .footer-con ul li a {
     text-decoration: none;
     font-size: 20px;
@@ -272,4 +311,47 @@ h2 {
     color: white;
     font-size: 10px;
 }
+
+}
+
+/*Desktop*/ 
+@media screen and (min-width:1200px) {
+#burger {
+    display: none
+}
+
+
+    .main-nav-desk {
+      display: block;
+   }
+   
+.logoimg {
+    background-color: rgb(231, 255, 229);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-header {
+    background-color: rgb(67, 193, 67);
+}
+
+#burger-menu {
+   display: flex;
+   list-style-type: none;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   justify-content: space-evenly;
+ }
+
+
+#burger-menu li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    
+
+}
+
 }
