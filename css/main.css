@@ -355,3 +355,36 @@ h2 {
 }
 
 }
+
+#contact1 {
+   margin-top: 70px;
+}
+
+.small-contact-box {
+   margin-top: 50px;
+}
+
+#contact-main {
+   background-color: green;
+}
+
+#faq-main {
+   background-color: green;
+}
+
+#legal p {
+   font-size: 10px;
+}
+
+#questions h3 {
+   text-decoration: underline;
+}
+
+#questions ul {
+   list-style: none;
+}
+
+#questions .box {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
