@@ -44,6 +44,7 @@
     line-height: 30px;
     color: white;
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px rgb(42, 125, 42);
     
 
 }
@@ -80,7 +81,7 @@ p {
     font-family: "TikTok Sans", Arial, Helvetica, sans-serif;
 }
 
-h2 {
+h2, h3 {
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
 }
 
@@ -208,7 +209,60 @@ h2 {
 
 /*Buy Now*/
 
+#shoppingnav {
+    background-color: rgb(67, 193, 67);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+#shoppingnav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#shoppingnav ul li a {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgb(42, 125, 42);
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+        text-decoration: none;
+}
+
+#shoppingnav ul li a:hover {
+    color: rgb(201, 242, 198);
+    text-shadow: 5px 5px 5px rgb(42, 125, 42);
+}
+
+
+#product-con {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.items {
+    border: 2px solid rgb(67, 193, 67);
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#products {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.producttitle {
+    grid-row: 2/3;
+}
 
 
 
@@ -318,7 +372,29 @@ h2 {
 /*Mobile Rules*/
 
 @media screen and (min-width: 768px) {
-    .footer-con {
+
+#shoppingnav {
+    background-color: rgb(67, 193, 67);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#shoppingnav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#shoppingnav ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-con {
     background-image: url('../images/footer3.jpg');
   background-size: cover;
   background-position: center;
