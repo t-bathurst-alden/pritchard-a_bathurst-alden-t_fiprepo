@@ -23,6 +23,7 @@
     border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgb(42, 125, 42);
 }
 
 .main-header {
@@ -45,6 +46,11 @@
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
     
 
+}
+
+#main-nav ul li a:hover {
+    color: rgb(201, 242, 198);
+    text-shadow: 5px 5px 5px rgb(42, 125, 42);
 }
 
 #secondlogo {
@@ -200,34 +206,90 @@ h2 {
     height: 100px;
 }
 
-.footer-con ul {
-    padding-top: 50px;
-   list-style-type: none;
-   margin-bottom: 0px;
-   margin-top: 0px;
-   justify-content: space-evenly;
+/*Buy Now*/
+
+
+
+
+
+/* Footer */
+
+.footer-con {
+    background-image: url('../images/footer2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+    
+.footerlogo {
+    width: 100px;
+    padding: 5px;
 }
 
-.footer-con ul li a {
+
+.footernav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    flex-wrap: nowrap;
+}
+
+.footernav ul {
+   list-style-type: none;
+   margin-bottom: 0px;
+    line-height: 30px;
+   margin-top: 0px;
+}
+
+.footernav ul li a {
     text-decoration: none;
     font-size: 30px;
     color: white;
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    display: flex;
+   width: 200px;
+}
+
+.footer-contact {
+    width: 300px;
+    margin-top: 30px;
+    height: 100px;
+    margin-bottom: 10px;
 }
 
 .footer-contact ul li {
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
-    color: white;
+    list-style-type: none;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   text-decoration: none;
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
+
+.footer-contact ul li a {
+    text-decoration: none;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(231, 255, 229);
+}
+
+.footernav ul li a:hover {
+    color: rgb(201, 242, 198);
+    text-shadow: 5px 5px 5px rgba(31, 59, 29, 0.5);
+}
+
+.footer-contact ul li a:hover {
+    color: rgb(177, 225, 173);
+    text-shadow: 5px 5px 5px rgba(31, 59, 29, 0.5);
+}
+
 
 .footerp {
     color: white;
-    font-size: 15px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 /*About Page*/
@@ -256,7 +318,48 @@ h2 {
 /*Mobile Rules*/
 
 @media screen and (min-width: 768px) {
+    .footer-con {
+    background-image: url('../images/footer3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+}
 
+.footernav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    flex-wrap: nowrap;
+    
+}
+
+.footer-contact {
+    padding-top: 60px;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-contact ul {
+    display: flex;
+   justify-content: space-evenly;   
+   flex-wrap: nowrap;
+}
+
+.footer-contact ul li a {
+    text-decoration: none;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(231, 255, 229);
+    display: flex;
+}
+
+.footerp {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
 
 }
 
@@ -294,28 +397,10 @@ h2 {
 }
 
 
-.footer-con ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    font-family: "Contrail One", Arial, Helvetica, sans-serif;
-}
-.footer-contact ul li {
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 20px;
-    color: white;
-    font-family: "Contrail One", Arial, Helvetica, sans-serif;
-}
-.footerp {
-    color: white;
-    font-size: 10px;
-}
-
 }
 
 /*Desktop*/ 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1000px) {
 #burger {
     display: none
 }
@@ -332,9 +417,6 @@ h2 {
     margin-bottom: 10px;
 }
 
-.main-header {
-    background-color: rgb(67, 193, 67);
-}
 
 #burger-menu {
    display: flex;
@@ -352,6 +434,72 @@ h2 {
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
     
 
+}
+
+.footer-con {
+    background-image: url('../images/footer5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+    
+.footerlogo {
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+
+.footernav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    flex-wrap: nowrap;
+    
+}
+
+.footernav ul {
+   list-style-type: none;
+   margin-bottom: 0px;
+    line-height: 50px;
+   margin-top: 0px;
+}
+
+.footernav ul li a {
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+   width: 200px;
+}
+
+.footer-contact {
+    padding-top: 60px;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-contact ul {
+    display: flex;
+   justify-content: space-evenly;   
+   flex-wrap: nowrap;
+}
+
+.footer-contact ul li a {
+    text-decoration: none;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(231, 255, 229);
+    display: flex;
+}
+
+.footerp {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 }
