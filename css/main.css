@@ -26,6 +26,16 @@
     box-shadow: 5px 5px 5px rgb(42, 125, 42);
 }
 
+.logoimg:hover {
+    animation: logojump 0.2s ease-in-out;
+}
+
+@keyframes logojump {
+    0% {transform: translateY(0px);}
+   50% {transform: translateY(-10px);}
+   100% {transform: translateY(0px);}
+}
+
 .main-header {
     background-color: rgb(67, 193, 67);
 }
@@ -301,6 +311,49 @@ h2, h3 {
 }
 
 
+/*About Page*/
+
+
+
+.paragraph-headers {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: clamp(25px, 2vw, 30px);
+}
+
+.about-sections {
+    margin-bottom: 30px;
+    color: rgb(12, 78, 12);
+    line-height: clamp(20px, 2vw, 25px);
+    font-size: clamp(15px, 2vw, 20px);
+    background-color: rgb(231, 255, 229);
+    border-radius: 15px;
+}
+
+.about-sections p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#paragraph1 {
+    margin-top: 30px;
+}
+
+#factorypic {
+    margin-bottom: 20px;
+}
+
+#fruitpic {
+    margin-bottom: 20px;
+}
+
+#farmerpic {
+    margin-bottom: 20px;
+}
+
+
 /* Footer */
 
 .footer-con {
@@ -379,26 +432,6 @@ h2, h3 {
     font-size: 10px;
     display: flex;
     justify-content: center;
-}
-
-/*About Page*/
-
-.paragraph-headers {
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.about-sections {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.about-sections p {
-    margin-bottom: 30px;
-}
-
-.middle-paragraph {
-    margin-top: 30px;
 }
 
 
@@ -515,6 +548,26 @@ h2, h3 {
     margin-top: 15px;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+#factorypic {
+    float: left;
+    shape-outside: url(../images/factory.jpg);
+    shape-margin: 1em;
+    margin-right: 20px;
+}
+
+#fruitpic {
+    float: right;
+    shape-outside: url(../images/fruits.jpg);
+    shape-margin: 1em;
+    margin-left: 20px;
+}
+
+#farmerpic {
+    float: left;
+    shape-outside: url(../images/farmers.jpg);
+    shape-margin: 1em;
+    margin-right: 20px;
 }
 
 }
