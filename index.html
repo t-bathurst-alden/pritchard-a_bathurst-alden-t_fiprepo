@@ -17,20 +17,20 @@
         <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 logoimg">
             <a href="index.html"><img src="images/mainlogo.svg" alt="Zima Logo"></a>
         </div>
-        <nav class="col-start-2 col-end-5 m-col-start-5 m-col-end-13" id="main-nav">
-            <h2 class="hidden">Main Navigation</h2>
-            <div id="burger">
-                <img src="images/burger.svg" alt="Burger icon">
-            </div>
-            <ul id="burger-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="buynow.html">Buy Now</a></li>
-            </ul>
-        </nav>
+        <nav id="main-nav" class="col-start-2 col-end-5 m-col-start-5 m-col-end-13">
+                <h2 class="visually-hidden">Main Navigation</h2>
+                <button id="button" class="col-end-5"></button>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="buynow.html">Buy Now</a></li>
+                    </ul>
+                </div>
+            </nav>
     </header>
     <main>
         <section class="grid-con center-grid-con" id="heroimgmain">
@@ -38,61 +38,66 @@
             <div class="box col-span-full m-col-span-full">Hero Image</div>
         </section>
         <section class="grid-con center-grid-con">
-            <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9" id="secondlogo">
+            <div class="col-span-full" id="secondlogo">
                 <img src="images/mainlogo.svg" alt="Zima Logo again" id="logo2">
             </div>
         </section>
         <div id="welcometext" class="grid-con center-grid-con">
-            <p class="box col-span-full m-col-start-2 m-col-end-12">Welcome to the official page for Zima, the freshest summer drink hitting the store shelves this year! On this website, you can learn more about our product, and even purchase some for yourself!</p>
+            <p class="col-span-full">Welcome to the official page for Zima, the freshest summer drink hitting the store shelves this year! On this website, you can learn more about our product, and even purchase some for yourself!</p>
         </div>
-        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox1-con">
-            <div class="grid-con col-span-full">
-                <h2 class="col-span-full m-col-span-4">Shop Zima Products</h2>
-                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="buynow.html">See More</a>
-                <p class="col-span-full m-col-span-6">Find our drinks and other merch on sale here! Buying Zima from here instead of a third party will grant you access to deals, coupons, and rewards...</p>
-                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox1img">
-                    Product example
-                </div>
+        <section class="grid-con center-grid-con infoboxes">
+            <div class="col-span-full">
+                <h2 class="infotitle">Shop Zima Products</h2>
+                <a class="infobutton" href="buynow.html">See More</a>
+                <p class="infoparagraph">Find our drinks and other merch on sale here! Buying Zima from here instead of a third party will grant you access to deals, coupons, and rewards...</p>
+                <picture id="buynowinfo">
+                    <source srcset="images/buynowinfodesk.jpg" media="(min-width: 768px)">
+                    <img src="images/buynowinfomobile.jpg" alt="A hand pouring Zima into a cup">
+                </picture>
             </div>
         </section>
-        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox2-con">
-            <div class="grid-con col-span-full">
-                <h2 class="col-span-full m-col-span-4">Check Out Zima News</h2>
-                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="news.html">See More</a>
-                <p class="col-span-full m-col-span-6">Here, you&apos;ll find the latest news in all things Zima! Our sponsorships, our new ideas, and holiday deals, all in one place...</p>
-                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox2img">
-                    Page example
-                </div>
+        <section class="grid-con center-grid-con infoboxes">
+            <div class="col-span-full">
+                <h2 class="infotitle">Learn More About Zima</h2>
+                <a class="infobutton" href="about.html">See More</a>
+                <p class="infoparagraph">Here, you&apos;ll find the latest news in all things Zima! Our sponsorships, our new ideas, and holiday deals, all in one place...</p>
+                <picture id="aboutinfo">
+                    <source srcset="images/aboutinfodesk.jpg" media="(min-width: 768px)">
+                    <img src="images/aboutinfomobile.jpg" alt="A man drinking Zima">
+                </picture>
             </div>
         </section>
-        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox3-con">
-            <div class="grid-con col-span-full">
-                <h2 class="col-span-full m-col-span-4">A Little About Zima</h2>
-                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="about.html">See More</a>
-                <p class="col-span-full m-col-span-6">Learn about our wonderful product and its origins by clicking here! Here, you&apos;ll learn about the history and process of creating Zima...</p>
-                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox3img">
-                    Picture of founders
-                </div>
+        <section class="grid-con center-grid-con infoboxes">
+            <div class="col-span-full">
+                <h2 class="infotitle">Catch Up On The Latest In Zima News</h2>
+                <a class="infobutton" href="news.html">See More</a>
+                <p class="infoparagraph">Learn about our wonderful product and its origins by clicking here! Here, you&apos;ll learn about the history and process of creating Zima...</p>
+                <picture id="newsinfo">
+                    <source srcset="images/newsinfodesk.jpg" media="(min-width: 768px)">
+                    <img src="images/newsinfomobile.jpg" alt="A woman reading the newspaper">
+                </picture>
             </div>
         </section>
-        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox4-con">
-            <div class="grid-con col-span-full">
-                <h2 class="col-span-full m-col-span-5">Frequently Asked Questions</h2>
-                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="faq.html">See More</a>
-                <p class="col-span-full m-col-span-6">If you have any questions or inquiries for the Zima team, please read through our list of FAQs. Don&apos;t see your question? Contact us!</p>
-                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox4img">
-                    Image of someone thinking
-                </div>
+        <section class="grid-con center-grid-con infoboxes">
+            <div class="col-span-full">
+                <h2 class="infotitle">Frequently Asked Questions</h2>
+                <a class="infobutton" href="faq.html">See More</a>
+                <p class="infoparagraph">If you have any questions or inquiries for the Zima team, please read through our list of FAQs. Don&apos;t see your question? Contact us!</p>
+                <picture id="faqinfo">
+                    <source srcset="images/faqinfodesk.jpg" media="(min-width: 768px)">
+                    <img src="images/faqinfomobile.jpg" alt="A man looking contemplative">
+                </picture>
             </div>
         </section>
-        <section class="hero-grid-con center-grid-con infobox-hero" id="infobox5-con">
-            <div class="grid-con col-span-full">
-                <h2 class="col-span-full m-col-span-4">Contact Us!</h2>
-                <a class="infobutton col-start-4 col-end-5 m-col-start-11 m-col-end-13" href="contact.html">See More</a>
-                <p class="col-span-full m-col-span-6">Our team of experts at the Zima brand would love to hear from you! Reviews, complaints, and inquiries should be left here...</p>
-                <div class="col-span-full m-col-start-7 m-col-end-12 image-placeholder" id="infobox5img">
-                    Image of someone talking over the phone
-                </div>
+        <section class="grid-con center-grid-con infoboxes">
+            <div class="col-span-full">
+                <h2 class="infotitle">Contact The Zima Team!</h2>
+                <a class="infobutton" href="contact.html">See More</a>
+                <p class="infoparagraph">Our team of experts at the Zima brand would love to hear from you! Reviews, complaints, and inquiries should be left here...</p>
+                <picture id="contactinfo">
+                    <source srcset="images/contactinfodesk.jpg" media="(min-width: 768px)">
+                    <img src="images/contactinfomobile.jpg" alt="A woman reading the newspaper">
+                </picture>
             </div>
         </section>
     </main>

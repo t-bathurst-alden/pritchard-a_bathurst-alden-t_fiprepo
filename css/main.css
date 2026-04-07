@@ -1,6 +1,6 @@
 
 #burger {
-    margin-top: 20px;
+    margin-top: 25px;
     width: 50px;
     justify-self: end;
 }
@@ -9,10 +9,6 @@
     display: none;
 }
 
-#main-nav ul li {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
 #heroimgmain {
     height: 400px;
@@ -23,7 +19,7 @@
     border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
-    box-shadow: 5px 5px 5px rgb(42, 125, 42);
+    box-shadow: 5px 5px 5px rgb(29, 82, 29);
 }
 
 .logoimg:hover {
@@ -37,185 +33,125 @@
 }
 
 .main-header {
-    background-color: rgb(67, 193, 67);
+    background-image: url(../images/navbarimgmedium2.jpg);
+    background-repeat: no-repeat;
 }
 
-#burger-menu {
-   list-style-type: none;
-   margin-bottom: 0px;
-   margin-top: 0px;
-   justify-content: space-evenly;
- }
+#main-nav button {
+   background: url(../images/burger.svg) center no-repeat;
+   border: 0px;
+   width: 50px;
+   height: 50px;
+   transition: all .2s ease-in-out;
+   margin-top: 15px;
+   margin-right: 15px;
+   float: right;
+   cursor: pointer;
+}
 
+#main-nav button.expanded {
+   transform: rotate(90deg);
+}
 
-#burger-menu li a {
+#burger-con {
+   margin-top: 20px;
+   display: none;
+   margin-bottom: 20px;
+}
+
+#burger-con li {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#burger-con li a {
     text-decoration: none;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: clamp(20px, 2vw, 24px);
     color: white;
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
-    text-shadow: 3px 3px 3px rgb(42, 125, 42);
-    
-
+    text-shadow: 5px 5px 5px rgb(29, 82, 29);
+    margin-right: 30px;
 }
 
-#main-nav ul li a:hover {
-    color: rgb(201, 242, 198);
-    text-shadow: 5px 5px 5px rgb(42, 125, 42);
+#burger-con.slide-toggle {
+   display: block;
 }
+
+
+
 
 #secondlogo {
-    background-color: white;
+    display: flex;
+    justify-content: center;
 }
 
 #logo2 {
     height: 200px;
 }
 
+#welcometext {
+    background-color: rgb(171, 233, 190);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.infoboxes {
+    border: 2px solid rgb(171, 233, 190);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(229, 255, 238);
+}
+
+.infoboxes picture {
+    display: flex;
+    justify-content: center;
+}
 
 .infobutton {
+    font-size: 16px;
     display: flex;
+    padding: 15px;
     justify-content: center;
     text-decoration: none;
     color: white;
     background-color: rgb(67, 193, 67);
-    border-radius: 5%;
+    border-radius: 10px;
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
     height: 50px;
     width: 100px;
-    padding-top: 13px;
+    float: right;
+    margin-right: 20px;
 }
 
-
-p {
-    font-family: "TikTok Sans", Arial, Helvetica, sans-serif;
+.infobutton:hover {
+    cursor: pointer;
+    background-color: rgb(51, 169, 51);
+    animation: buttonboogie .3s ease-in-out;
 }
 
-h2, h3 {
-    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+@keyframes buttonboogie {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
 }
 
-/*Infobox 1 with nested properties*/
-
-.infobox-hero {
-    grid-row: 1/2;
-    height: 200px;
-    border: grey solid 2px;
+.infotitle {
+    font-size: clamp(24px, 2vw, 28px);
+    margin-bottom: 30px;
+    color: rgb(12, 78, 12);
 }
 
-#infobox1-con {
-    grid-row: 1/2;
-    height: 200px;
+.infoparagraph {
+    color: rgb(93, 93, 93);
+    font-size: clamp(14px, 2vw, 18px);
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 
-#infobox1-con h2 {
-    color: #142916;
-    font-size: 30px;
-    padding: 20px;
-}
-
-#infobox1-con p {
-    padding-left: 20px;
-}
-
-
-#infobox1img {
-    height: 100px;
-}
-
-/*Infobox 2 with nested properties*/
-
-#infobox2-con {
-    grid-row: 1/2;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
-#infobox2-con h2 {
-    color: #142916;
-    font-size: 30px;
-    padding: 20px;
-}
-
-#infobox2-con p {
-    padding-left: 20px;
-}
-
-
-#infobox2img {
-    height: 100px;
-}
-
-/*Infobox 3 with nested properties*/
-
-#infobox3-con {
-    grid-row: 1/2;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
-#infobox3-con h2 {
-    color: #142916;
-    font-size: 30px;
-    padding: 20px;
-}
-
-#infobox3-con p {
-    padding-left: 20px;
-}
-
-
-#infobox3img {
-    height: 100px;
-}
-
-/*Infobox 4 with nested properties*/
-
-
-#infobox4-con {
-    grid-row: 1/2;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
-#infobox4-con h2 {
-    color: #142916;
-    font-size: 30px;
-    padding: 20px;
-}
-
-#infobox4-con p {
-    padding-left: 20px;
-}
-
-
-#infobox4img {
-    height: 100px;
-}
-
-/*Infobox 5 with nested properties*/
-
-#infobox5-con {
-    grid-row: 1/2;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
-#infobox5-con h2 {
-    color: #142916;
-    font-size: 30px;
-    padding: 20px;
-}
-
-#infobox5-con p {
-    padding-left: 20px;
-}
-
-
-#infobox5img {
-    height: 100px;
-}
 
 /*Buy Now*/
 
@@ -337,21 +273,17 @@ h2, h3 {
     padding-bottom: 20px;
 }
 
+.about-sections img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-self: center;
+}
+
 #paragraph1 {
     margin-top: 30px;
 }
 
-#factorypic {
-    margin-bottom: 20px;
-}
-
-#fruitpic {
-    margin-bottom: 20px;
-}
-
-#farmerpic {
-    margin-bottom: 20px;
-}
 
 
 /* Footer */
@@ -437,9 +369,113 @@ h2, h3 {
 
 /* Media Queries*/
 
-/*Mobile Rules*/
+
+@media screen and (max-width: 768px) {
+#burger-con {
+   background-color:rgba(67, 193, 67, 0.662);
+}
+}
+
+
+
+/*Tablet and up Rules*/
 
 @media screen and (min-width: 768px) {
+#button {
+    display: none;
+}
+
+.main-header {
+    background-image: url(../images/navbarimgmedium1.jpg);
+    background-repeat: no-repeat;
+}
+
+#main-nav {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#burger-con {
+    display: flex;
+   list-style-type: none;
+   justify-items: center space-evenly;
+   flex-wrap: nowrap;
+ }
+
+#burger-con ul li {
+    border: none;
+    display: inline;
+}
+
+#burger-con ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px rgb(29, 82, 29);
+    margin: 25px;
+}
+
+
+#burger-con ul li a:hover {
+    color: rgb(138, 205, 133);
+    text-shadow: 5px 5px 5px rgb(29, 82, 29);
+}
+
+.logoimg {
+    background-color: rgb(231, 255, 229);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#welcometext {
+    width: 600px;
+}
+
+.infoboxes {
+    border: 2px solid rgb(171, 233, 190);
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.infoboxes picture {
+    float: right;
+    shape-outside: url(../images/buynowinfodesk.jpg);
+    shape-margin: 1em;
+}
+
+.infobutton {
+    font-size: 26px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 193, 67);
+    border-radius: 10px;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    position: relative;
+    top: 240px;
+    float: left;
+    margin-right: 20px;
+}
+
+.infotitle {
+    font-size: clamp(24px, 2vw, 28px);
+    margin-bottom: 30px;
+}
+
+.infoparagraph {
+    float: left;
+    width: 325px;
+    position: absolute;
+}
+
 
 #shoppingnav {
     background-color: rgb(67, 193, 67);
@@ -574,58 +610,17 @@ h2, h3 {
 
 
 
-@media screen and (max-width: 768px) {
-    #infobox1-con h2 {
-    color: #142916;
-    font-size: 18px;
-    padding: 10px;
-}
-
-#infobox2-con h2 {
-    color: #142916;
-    font-size: 18px;
-    padding: 10px;
-}
-
-#infobox3-con h2 {
-    color: #142916;
-    font-size: 18px;
-    padding: 10px;
-}
-
-#infobox4-con h2 {
-    color: #142916;
-    font-size: 18px;
-    padding: 10px;
-}
-
-#infobox5-con h2 {
-    color: #142916;
-    font-size: 18px;
-    padding: 10px;
-}
-
-
-}
-
 /*Desktop*/ 
 @media screen and (min-width:1000px) {
-#burger {
-    display: none
+
+.main-header {
+    background-image: url(../images/navbarimghuge.jpg);
+    background-repeat: no-repeat;
 }
 
-
-    .main-nav-desk {
-      display: block;
-   }
-   
-.logoimg {
-    background-color: rgb(231, 255, 229);
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.infoparagraph {
+    width: 600px;
 }
-
 
 #burger-menu {
    display: flex;

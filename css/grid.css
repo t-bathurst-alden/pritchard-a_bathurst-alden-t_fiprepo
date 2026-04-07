@@ -21,6 +21,14 @@ body, p, h1, h2, h3, h4, h5 {
 
 /* ---Utility Classes--- */
 
+p {
+    font-family: "TikTok Sans", Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+}
+
 .hidden {
    display: none;
 }
@@ -57,12 +65,6 @@ body, p, h1, h2, h3, h4, h5 {
 
 .center-grid-con {
    margin: 0 auto;
-}
-
-.hero-grid-con {
-   display: grid;
-   max-width: 1200px;
-   grid-template-columns: 1fr;
 }
 
 /* ---Mobile Library Grid Styles--- */
