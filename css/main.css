@@ -11,7 +11,8 @@
 
 
 #heroimgmain {
-    height: 400px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .logoimg {
@@ -35,6 +36,7 @@
 .main-header {
     background-image: url(../images/navbarimgmedium2.jpg);
     background-repeat: no-repeat;
+    background-size: 100%, 90px, contain;
 }
 
 #main-nav button {
@@ -91,10 +93,13 @@
 }
 
 #welcometext {
-    background-color: rgb(171, 233, 190);
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 15px;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    font-size: clamp(20px, 2vw, 24px);
+    color: rgb(12, 78, 12);
+    text-align: center;
 }
 
 .infoboxes {
@@ -104,6 +109,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgb(229, 255, 238);
+}
+
+.infobox-right picture {
+    float: left;
 }
 
 .infoboxes picture {
@@ -124,7 +133,6 @@
     height: 50px;
     width: 100px;
     float: right;
-    margin-right: 20px;
 }
 
 .infobutton:hover {
@@ -234,7 +242,7 @@
     font-family: "Contrail One", Arial, Helvetica, sans-serif;
     padding: 15px;
     border-radius: 15px;
-    background-color: rgb(42, 125, 42);
+    background-color: rgb(67, 193, 67);
     border: none;
     float: right;
     margin-right: 20px;
@@ -243,7 +251,7 @@
 
 .buynowbutton:hover {
     cursor: pointer;
-    background-color: rgb(52, 149, 52);
+    background-color: rgb(51, 169, 51);
 }
 
 
@@ -428,9 +436,6 @@
     margin-bottom: 10px;
 }
 
-#welcometext {
-    width: 600px;
-}
 
 .infoboxes {
     border: 2px solid rgb(171, 233, 190);
@@ -442,8 +447,10 @@
 
 .infoboxes picture {
     float: right;
-    shape-outside: url(../images/buynowinfodesk.jpg);
-    shape-margin: 1em;
+}
+
+.infobox-right picture {
+    justify-self: start;
 }
 
 .infobutton {
@@ -459,10 +466,6 @@
     height: 60px;
     width: 150px;
     cursor: pointer;
-    position: relative;
-    top: 240px;
-    float: left;
-    margin-right: 20px;
 }
 
 .infotitle {
@@ -470,10 +473,16 @@
     margin-bottom: 30px;
 }
 
-.infoparagraph {
-    float: left;
-    width: 325px;
-    position: absolute;
+#buynowinfo {
+    margin-top: 30px;
+}
+
+#newsinfo {
+    margin-top: 30px;
+}
+
+#contactinfo {
+    margin-top: 30px;
 }
 
 
@@ -639,6 +648,36 @@
     
 
 }
+
+.infobutton {
+    font-size: 26px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 193, 67);
+    border-radius: 10px;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    grid-row: 2/3;
+    align-self: end;
+}
+
+.infobox-right .infobutton {
+    justify-self: right;
+}
+
+.infobox-right p {
+    padding-right: 20px;
+}
+
+.infobox-right picture {
+    margin-top: 30px;
+}
+
 
 .footer-con {
     background-image: url('../images/footer5.jpg');
