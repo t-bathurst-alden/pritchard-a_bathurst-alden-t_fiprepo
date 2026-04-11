@@ -14,9 +14,9 @@
     <h1 class="hidden">Shop Zima Products</h1>
     <header class="grid-con center-grid-con main-header main-nav">
         <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 logoimg">
-            <a href="index.html"><img src="images/mainlogo.svg" alt="Zima Logo"></a>
+            <a href="index.html"><img src="images/navlogo.svg" alt="Zima Logo"></a>
         </div>
-        <nav id="main-nav" class="col-start-2 col-end-5 m-col-start-5 m-col-end-13">
+        <nav id="main-nav" class="col-start-2 col-end-5 m-col-span-9 l-col-start-5 l-col-end-13">
                 <h2 class="visually-hidden">Main Navigation</h2>
                 <button id="button" class="col-end-5"></button>
                 <div id="burger-con">
@@ -43,31 +43,87 @@
                 </ul>
             </div>
             <div class="col-span-full" id="product-con">
-                <div class="items">
+                <div class="items" id="limeproduct">
+                    <picture>
+                        <source srcset="images/limesmall.jpg" media="(min-width: 768px)">
+                        <img src="images/limemedium.jpg" alt="A box of six Lime Zima bottles">
+                    </picture>
                     <h3 class="producttitle">Classic Lime Zima 6-Pack</h3>
+                    <p class="productselection">Quantity: 6 Bottles</p>
+                    <p class="productdesc">Can&apos;t go wrong with the original Zima favour.</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
+                <div class="items" id="lemonproduct">
+                    <picture>
+                        <source srcset="images/lemonsmall.jpg" media="(min-width: 768px)">
+                        <img src="images/lemonmedium.jpg" alt="A box of six Lemon Zima bottles">
+                    </picture>
                     <h3 class="producttitle">Classic Lemon Zima 6-Pack</h3>
+                    <p class="productselection">Quantity: 6 Bottles</p>
+                    <p class="productdesc">A fan favourite amongst Zima fans for cocktails!</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
+                <div class="items" id="orangeproduct">
+                    <picture>
+                        <source srcset="images/orangesmall.jpg" media="(min-width: 768px)">
+                        <img src="images/orangemedium.jpg" alt="A box of six Orange Zima bottles">
+                    </picture>
                     <h3 class="producttitle">Classic Orange Zima 6-Pack</h3>
+                    <p class="productselection">Quantity: 6 Bottles</p>
+                    <p class="productdesc">A classic Zima flavour for summers by the pool.</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
+                <div class="items" id="grapefruitproduct">
+                    <picture>
+                        <source srcset="images/grapefruitsmall.jpg" media="(min-width: 768px)">
+                        <img src="images/grapefruitmedium.jpg" alt="A box of six Grapefruit Zima bottles">
+                    </picture>
                     <h3 class="producttitle">Classic Grapefruit Zima 6-Pack</h3>
+                    <p class="productselection">Quantity: 6 Bottles</p>
+                    <p class="productdesc">A classic Zima flavour with a tangy twist for the bold.</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
-                    <h3 class="producttitle"><span class="newproduct">New!</span> Peach-Orange Zima Twist 6-Pack</h3>
+                <div class="items" id="lemonraspproduct">
+                    <picture>
+                        <source srcset="images/lemonraspsmall.jpg" media="(min-width: 768px)">
+                        <img src="images/lemonraspmedium.jpg" alt="A man wearing a Zima t-shirt">
+                    </picture>
+                    <h3 class="producttitle"><span class="newproduct">New!</span> Lemon-Rasp Zima 6-Pack</h3>
+                    <p class="productselection">Quantity: 6 Bottles</p>
+                    <p class="productdesc">An all new fusion flavour for double the Zima goodness!</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
-                    <h3 class="producttitle"><span class="newproduct">New!</span> Lemon-Raspberry Zima Twist 6-Pack</h3>
+                <div class="items" id="orangepeachproduct">
+                    <picture>
+                        <source srcset="images/orangepeachsmall.jpg" media="(min-width: 768px)">
+                        <img src="images/orangepeachmedium.jpg" alt="A man wearing a Zima t-shirt">
+                    </picture>
+                    <h3 class="producttitle"><span class="newproduct">New!</span> Peach-Orange Zima 6-Pack</h3>
+                    <p class="productselection">Quantity: 6 Bottles</p>
+                    <p class="productdesc">An all new fusion flavour for double the Zima goodness!</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
-                    <h3 class="producttitle"><span class="newproduct">New!</span> Zima Party 8-Pack</h3>
+                <div class="items" id="tshirtproduct">
+                    <picture>
+                        <source srcset="images/shirtsmall.jpg" media="(min-width: 768px)">
+                        <img src="images/shirtmedium.jpg" alt="A man wearing a Zima t-shirt">
+                    </picture>
+                    <h3 class="producttitle">Zima Casual T-Shirt</h3>
+                    <p class="productselection">Colours: Black, White, Green</p>
+                    <p class="productdesc">A comfortable t-shirt for Zima fans to wear this summer.</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
-                    <h3 class="producttitle"><span class="newproduct">New!</span> Zima Classic Flavour Variety 8-Pack</h3>
+                <div class="items" id="sweaterproduct">
+                    <picture>
+                        <source srcset="images/sweatersmall.jpg" media="(min-width: 768px)">
+                        <img src="images/sweatermedium.jpg" alt="A man wearing a Zima sweater">
+                    </picture>
+                    <h3 class="producttitle">Zima Casual Hoodie</h3>
+                    <p class="productselection">Colours: Black, White, Green</p>
+                    <p class="productdesc">A comfortable hoodie to keep Zima fans warm and cozy.</p>
+                    <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
+                <div class="items" id="hatproduct">
                     <picture>
                         <source srcset="images/merch1.jpg" media="(min-width: 768px)">
                         <img src="images/merch1medium.jpg" alt="A woman wearing a stylish Zima hat">
@@ -77,7 +133,7 @@
                     <p class="productdesc">A trendy cap for die-hard Zima fans to show off their style!</p>
                     <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
+                <div class="items" id="scarfproduct">
                     <picture>
                         <source srcset="images/scarfsmall.jpg" media="(min-width: 768px)">
                         <img src="images/scarfmedium.jpg" alt="A woman wearing a stylish Zima scarf">
@@ -87,7 +143,7 @@
                     <p class="productdesc">A cozy sweater for Zima fans to keep warm in cold weather.</p>
                     <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
+                <div class="items" id="bagproduct">
                     <picture>
                         <source srcset="images/totebagsmall.jpg" media="(min-width: 768px)">
                         <img src="images/totebagmedium.jpg" alt="A tote bag with Zima featured on the design">
@@ -97,7 +153,7 @@
                     <p class="productdesc">For our loyal fans to carry your Zima supply, obviously.</p>
                     <button class="buynowbutton">Buy Now</button>
                 </div>
-                <div class="items">
+                <div class="items" id="keychainproduct">
                     <picture>
                         <source srcset="images/keychainsmall.jpg" media="(min-width: 768px)">
                         <img src="images/keychainmedium.jpg" alt="A keychain with the Zima logo on it">
@@ -109,6 +165,14 @@
                 </div>
             </div>
         </section>
+        <div id="shoppingnav2" class="grid-con center-grid-con">
+            <ul id="pagelist2" class="col-span-full">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">...</a></li>
+                </ul>
+        </div>
     </main>
     <footer>
             <section class="grid-con center-grid-con footer-con">
