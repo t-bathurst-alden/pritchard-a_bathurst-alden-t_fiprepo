@@ -823,3 +823,39 @@ margin-bottom: 20px;
    margin-top: 20px;
    margin-bottom: 20px;
 }
+
+#faq-header {
+    color: rgb(29, 82, 29);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.faq-question {
+    justify-items: center;
+    padding-bottom: 40px;
+}
+
+.faq-question p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.faq-question h2 {
+    text-decoration: underline;
+    color: rgb(29, 82, 29);
+    font-size: 36px;
+}
+
+.faq-image {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.faq-image picture {
+    width: 100%;
+}
