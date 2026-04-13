@@ -247,6 +247,7 @@ margin-bottom: 20px;
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: white;
 }
 
 .items img {
@@ -791,6 +792,8 @@ margin-bottom: 20px;
 
 }
 
+/*Contact*/
+
 #contact-button {
     color: rgb(6, 56, 6);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -844,6 +847,8 @@ margin-bottom: 20px;
 .small-contact-box {
    margin-top: 15px;
 }
+
+/* FAQ */
 
 #faq-main {
    background-color: green;
@@ -900,4 +905,23 @@ margin-bottom: 20px;
 
 .faq-image picture {
     width: 100%;
+}
+
+/* News */
+
+#news-new-arrivals {
+    background-color: rgb(177, 225, 173);
+    padding-bottom: 42px;
+    padding-top: 16px;
+}
+
+#new-arrivals-header {
+    display: block;
+    justify-items: center;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+#new-arrivals-header h2 {
+    font-size: 32px;
 }
