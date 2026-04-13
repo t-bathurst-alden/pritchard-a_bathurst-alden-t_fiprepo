@@ -437,7 +437,7 @@ margin-bottom: 20px;
 #burger-con {
     display: flex;
    list-style-type: none;
-   justify-items: center space-evenly;
+   justify-items: center;
    flex-wrap: nowrap !important; 
  }
 
@@ -632,21 +632,18 @@ margin-bottom: 20px;
 #factorypic {
     float: left;
     shape-outside: url(../images/factory.jpg);
-    shape-margin: 1em;
     margin-right: 20px;
 }
 
 #fruitpic {
     float: right;
     shape-outside: url(../images/fruits.jpg);
-    shape-margin: 1em;
     margin-left: 20px;
 }
 
 #farmerpic {
     float: left;
     shape-outside: url(../images/farmers.jpg);
-    shape-margin: 1em;
     margin-right: 20px;
 }
 
@@ -937,7 +934,7 @@ margin-bottom: 20px;
 }
 
 #spotlight-banner {
-    padding: 0 auto;
+    padding: 0;
     margin: 0 auto;
     display: block;
     width: fit-content;
@@ -963,4 +960,10 @@ margin-bottom: 20px;
 
 #limited-time-products {
     background-color: rgb(190, 254, 184);
+}
+
+#product-con-news {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
