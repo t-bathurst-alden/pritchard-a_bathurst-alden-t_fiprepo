@@ -11,7 +11,7 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <h1>Contact Us!</h1>
+    <h1 class="hidden">Contact Us!</h1>
     <header class="grid-con center-grid-con main-header main-nav">
         <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 logoimg">
             <a href="index.html"><img src="images/navlogo.svg" alt="Zima Logo"></a>
@@ -34,18 +34,28 @@
     <main>
 <section id="contact-main" class="grid-con center-grid-con">
                         <h2 class="hidden">Contact Page Main Section</h2>
-                        <div id="contact1" class="box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
-                            <h2>Want to join us? Have further questions or concerns about our product?</h2><br> 
-                            <h1>Contact us!</h1>
+                        <div id="contact1" class="col-start-2 col-end-4 m-col-start-5 m-col-end-9 l-col-start-2 l-col-end-12">
+                            <h2>Want to join us? Have further questions or concerns about our product?</h2> 
                         </div>
-                        <div class="box small-contact-box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+                            <div id="contact-button" class="button-box col-start-2 col-end-4 m-col-start-5 m-col-end-9">
+                                <h1>Contact us!</h1>
+                            </div>
+                            <div id="contact-form" class="col-start-2 col-end-4 m-col-start-5 m-col-end-9">
+                                <form action="email.php" method="POST" enctype="text/plain">
+                                    <input name="fullName" type="text" placeholder="First & Last Name"><br>
+                                    <input name="contactInfo" type="text" required placeholder="Email Address"><br>
+                                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea><br>
+                                    <input name="submit" type="submit" value="Send">
+                                </form>
+                            </div>
+                        <div class="contact-box small-contact-box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
                             <p>zimadrink@email.com</p>
                         </div>
-                        <div class="box small-contact-box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+                        <div class="contact-box small-contact-box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
                             <p>Phone: +1 200 200 2000</p>
                         </div>
-                        <div class="box small-contact-box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
-                            <p>Fax : 1 899 5134</p>
+                        <div class="contact-box small-contact-box col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+                            <p>Fax : 1 300 300 3000</p>
                         </div>
                     </section>
     </main>
