@@ -910,7 +910,8 @@ margin-bottom: 20px;
 /* News */
 
 #news-new-arrivals {
-    background-color: rgb(177, 225, 173);
+    background-color: rgb(190, 254, 184);
+    color: rgb(12, 78, 12);
     padding-bottom: 42px;
     padding-top: 16px;
 }
@@ -924,4 +925,42 @@ margin-bottom: 20px;
 
 #new-arrivals-header h2 {
     font-size: 32px;
+}
+
+#news-spotlight-header {
+    color: rgb(12, 78, 12);
+    font-size: 30px;
+    padding-top: 66px;
+    padding-bottom: 66px;
+    align-items: center;
+    text-align: center;
+}
+
+#spotlight-banner {
+    padding: 0 auto;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+#upcoming-spotlight {
+    background-color: white;
+}
+
+#spotlight-paragraph {
+    margin-top: 44px;
+    margin-bottom: 44px;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Contrail One", Arial, Helvetica, sans-serif;
+}
+
+#limited-time-products h2 {
+    color: rgb(12, 78, 12);
+    font-size: 42px;
+    text-align: center;
+}
+
+#limited-time-products {
+    background-color: rgb(190, 254, 184);
 }
