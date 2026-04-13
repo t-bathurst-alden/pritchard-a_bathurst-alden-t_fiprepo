@@ -791,16 +791,58 @@ margin-bottom: 20px;
 
 }
 
+#contact-button {
+    color: rgb(6, 56, 6);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 #contact1 {
-   margin-top: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-items: center;
+}
+
+#contact1 h1 {
+    color:rgb(3, 37, 3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#contact-form {
+    border-radius: 5px;
+    padding: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: rgb(67, 193, 67);
+}
+
+#contact-form input, textarea {
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact-box {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color: rgb(131, 231, 145);
+   color: rgb(27, 27, 27);
+   border-radius: 20px;
+   border-style: solid;
+   border-width: 4px;
+   border-color: rgb(12, 78, 12);
+   padding: 10px;
+   text-align: center;
+   margin-bottom:25px;
+ }
+
+.contact-box p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
 }
 
 .small-contact-box {
-   margin-top: 50px;
-}
-
-#contact-main {
-   background-color: green;
+   margin-top: 15px;
 }
 
 #faq-main {
